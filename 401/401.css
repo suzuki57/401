@@ -1,0 +1,39 @@
+.title {
+  text-align: center;
+  font-size: 72px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 32px;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+.title {
+  text-align: center;
+  font-size: 72px;
+}
+
+@media (max-width: 450px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
